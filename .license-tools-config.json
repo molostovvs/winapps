@@ -61,7 +61,7 @@
     "apps/publisher-o365/info",
     "apps/word-o365/info",
     "install/inquirer.sh",
-    "oem/RDPApps.reg"
+    "oem/*.reg"
   ],
   "license": false,
   "force_author": false,
