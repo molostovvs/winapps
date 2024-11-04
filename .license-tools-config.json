@@ -7,13 +7,15 @@
   "style_override_for_suffix": {
     ".yaml": "POUND_STYLE",
     ".ps1": "POUND_STYLE",
+    ".nix": "POUND_STYLE",
     ".bat": "BATCH_STYLE",
     "": "POUND_STYLE"
   },
   "exclude": [
+    "flake.lock",
     "^\\.[^/]+",
     "/\\.[^/]+",
-    "^(.+)\\.(md|svg|png|reg|gif)",
+    "^(.+)\\.(md|svg|png|reg|gif|patch)",
     "^(fonts|WinApps-Launcher)(/.*)?",
     "apps/access/info",
     "apps/access-o365-x86/info",
@@ -60,8 +62,7 @@
     "apps/powerpoint-o365/info",
     "apps/publisher-o365/info",
     "apps/word-o365/info",
-    "install/inquirer.sh",
-    "oem/*.reg"
+    "install/inquirer.sh"
   ],
   "license": false,
   "force_author": false,
